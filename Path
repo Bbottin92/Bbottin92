@@ -1,0 +1,7 @@
+#main
+
+import os
+
+path = r'C:\Program Files\SweetBox'
+if not os.path.exists(path):
+    os.makedirs(path)
